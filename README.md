@@ -8,7 +8,7 @@ The primary challenge I ran into is that Windows does not distinguish between mu
 
 Many of the tutorials I found involved using a soundboard executable file. I ultimately scrapped this as it had one big problem - no matter how complex of a key combination I used to trigger a sound effect, it would still have some adverse affect on my system as those keystrokes had to be passed through. Additionally, even with complex key bindings, I could not get more than 3 sound files on a single key. What I actually wanted was to have each key be a category and play a random sound from a library of sounds tagged as that category.
 
-## The Answer
+## My solution
 
 Through a combination of trial and error, scripting, reading, researching, etc., I finally have what I believe to be the best way to implement this setup. This project will allow you to connect a second keyboard to your computer, intercept all key strokes on that keyboard, and then have those keystrokes trigger an unlimited number of sound effects.
 
@@ -53,9 +53,9 @@ This project combines several tools to get the effect that we need. Please insta
 
 ## Setting up the soundboard
 
-### Step 1: Clone this repo
+### Step 1: Save the soundboard script
 
-Run `git clone https://github.com/joshwaiam/soundboard.git` in your terminal to clone these files to your machine.
+You can either run `git clone https://github.com/joshwaiam/soundboard.git` in your terminal to clone these entire project to your computer, or you can create a folder with the `Soundboard.ahk` script in it (either download the file or copy and paste the contents)
 
 ### Step 2: Extract Soundboard files
 
