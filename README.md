@@ -1,4 +1,4 @@
-# Squishy's Soundboard Shenanigans
+# Second keyboard soundbard
 
 ## History
 
