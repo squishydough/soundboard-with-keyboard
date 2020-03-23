@@ -312,6 +312,13 @@ KeyEvent(code, state){
     ,"Futurama - Not necessary or wise to be naked"]
   }
 
+  ; Key: ]
+  if(code = 27) {
+    category := "QUANTITY"
+    files := ["Badman - Like a lot"
+    ,"Professor Ex - A little bit"]
+  }
+
   ; Key: A
   if(code = 30) {
     category := "HELP"
@@ -453,9 +460,9 @@ KeyEvent(code, state){
 
   ; Key: semicolon
   if(code = 39) {
-    category := "QUANTITY"
-    files := ["Badman - Like a lot"
-    ,"Professor Ex - A little bit"]
+    category := "FACTS"
+    files := ["Kung Fury - He's the worst criminal of all time"
+    ,"Kung Fury - He's the most powerful hacker"]
   }
 
   ; Key: single quote
@@ -613,8 +620,7 @@ KeyEvent(code, state){
     ,"TD - Will you just teach me"
     ,"Futurama - Good work everyone"
     ,"Kung Fury - Best partner I ever had"
-    ,"Kung Fury - You're like a father to me"
-    ,"Kung Fury - He's the most powerful hacker"]
+    ,"Kung Fury - You're like a father to me"]
   }
 
   ; Key: comma
