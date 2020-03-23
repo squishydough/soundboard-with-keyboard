@@ -340,7 +340,8 @@ KeyEvent(code, state){
     ,"Professor Ex - You're not all here, are you"
     ,"DM - A succulent chinese meal"
     ,"Spaceballs - You went over my helmet"
-    ,"Spaceballs - Take a five minute break"]
+    ,"Spaceballs - Take a five minute break"
+    ,"Kung Fury - I'm not sure"]
   }
 
   ; Key: D
@@ -620,7 +621,8 @@ KeyEvent(code, state){
     ,"TD - Will you just teach me"
     ,"Futurama - Good work everyone"
     ,"Kung Fury - Best partner I ever had"
-    ,"Kung Fury - You're like a father to me"]
+    ,"Kung Fury - You're like a father to me"
+    ,"Kung Fury - She's a killing machine"]
   }
 
   ; Key: comma
@@ -706,7 +708,8 @@ KeyEvent(code, state){
     ,"Buster Scruggs - Well don't like my white duds fool ya"
     ,"Buster Scruggs - I too have violated laws"
     ,"Futurama - Don't make me smell uranus"
-    ,"Kung Fury - You're under arrest, punk"]
+    ,"Kung Fury - You're under arrest, punk"
+    ,"Kung Fury - That explains the laser raptor"]
   }
 
   ; Key: Spacebar
@@ -785,22 +788,24 @@ KeyEvent(code, state){
     files := ["Badman - I broke you, how have you come back"]
   }
 
-  ; Key: F8
-  if(code = 66) {
+  ; Key: F9
+  if(code = 67) {
     category := "NSFW"
     files := ["Badman - Fuck my face"
     ,"Badman - Where were the other drugs going"
+    ,"BADMAN - Fuck this"
     ,"Spaceballs - How many assholes"
     ,"Spaceballs - I'm surrounded by assholes"
     ,"Spaceballs - Keep firing, assholes"
     ,"Spaceballs - Oh shit, there goes the planet"
     ,"Naked Gun - Like a blind man"
     ,"Naked Gun - I like my sex how I like my basketball"
-    ,"Kung Fury - Fuck you"]
+    ,"Kung Fury - Fuck you"
+    ,"Kung Fury - Fuck"]
   }
 
-  ; Key: F9
-  if(code = 67) {
+  ; Key: F10
+  if(code = 68) {
     category := "NSFW"
     files := ["DIRTY -  Badman - It's been a while"
     ,"DIRTY - Badman - All sex jokes aside"
@@ -817,12 +822,6 @@ KeyEvent(code, state){
     ,"DIRTY - You tamed my monster"
     ,"DIRTY - DM - Get your hand off my penis"
     ,"DIRTY - DM - This is the bloke who got me on the penis"]
-  }
-
-  ; Key: F10
-  if(code = 68) {
-    category := "NSFW"
-    files := ["DISMISS - Fuck this"]
   }
 
   ; Key: Num7
