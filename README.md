@@ -1,4 +1,4 @@
-# Second keyboard soundbard
+# Second keyboard soundboard
 
 ## History
 
