@@ -920,7 +920,6 @@ KeyEvent(code, state){
 
 ; Play the selected sound
 PlayRandomSound(code) {
-
   ; If there is only one file for the key, just play it
   if(files.Length() = 1) {
     randomIndex := 1
@@ -928,6 +927,7 @@ PlayRandomSound(code) {
     ; If no more unplayedFiles for this key, all files are unplayed
     if(unplayedFiles[code].Length() = 0 || !unplayedFiles[code]) {
       unplayedFiles[code] := {}
+
       ; Fill unplayedFiles for this key to all available indexes
       for index in files {
         unplayedFiles[code].push(index)
@@ -944,13 +944,16 @@ PlayRandomSound(code) {
 
       ; Set the randomIndex value
       randomIndex := unplayedFiles[code][rand]
+
       ; Remove that index from unplayedFiles
       unplayedFiles[code].RemoveAt(rand)  
     }
   }
   
   if(files[randomIndex] != "" && category != "") {
+    ; Create full file path and name
     fileName := SOUNDS_DIR . category . "/" . files[randomIndex] . SOUNDS_EXT
+
     ; Play sound
     Run, "%VLC_PATH%" --aout=waveout --waveout-audio-device="%VLC_AUDIO_OUT%" --play-and-exit --qt-start-minimized --qt-system-tray "%fileName%",,, pid
   }
