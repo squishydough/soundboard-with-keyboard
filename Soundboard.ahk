@@ -143,20 +143,19 @@ KeyEvent(code, state){
     ,"Buster Scruggs - It appears that the vitals on this one"
     ,"Naked Gun - This world is such a violent place"
     ,"Futurama - He died because of me"
-    ,"Kung Fury - I could tell he was dead"]
+    ,"Kung Fury - I could tell he was dead"
+    ,"Kung Fury - I'm afraid you're dead"]
   }
 
   ; Key: W
   if(code = 17) {
     category := "GREETING"
-    files := ["Badman - And he's back"
-    ,"Badman - Hi"
-    ,"Badman - Oh you're back"
-    ,"Badman - You're back"
+    files := ["Badman - Hi"
     ,"Mickie - Hey, how's my favorite hostage"
     ,"KP - Hi yall"
     ,"Princess Bride - Hello, my name is Inigo Montoya"
-    ,"Kung Fury - Very nice meeting you"]
+    ,"Kung Fury - Very nice meeting you"
+    ,"Kung Fury - Behold, it is me"]
   }
 
   ; Key: E
@@ -179,7 +178,8 @@ KeyEvent(code, state){
     ,"Buster Scruggs - Adios"
     ,"Futurama - Game's over, losers"
     ,"Futurama - Thank you and goodnight"
-    ,"Kung Fury - Game over"]
+    ,"Kung Fury - Game over"
+    ,"Kung Fury - Good luck to you"]
   }
 
   ; Key: R
@@ -236,7 +236,8 @@ KeyEvent(code, state){
     ,"Spaceballs - What's the matter, chicken"
     ,"Spaceballs - Suck, suck, suck"
     ,"Futurama - Lick my frozen metal ass"
-    ,"Kung Fury - I've got your permit"]
+    ,"Kung Fury - I've got your permit"
+    ,"Kung Fury - Don't hassle the hoff"]
   }
 
   ; Key: Y
@@ -302,7 +303,8 @@ KeyEvent(code, state){
     ,"Mickie - The three amagos"
     ,"Professor Ex - Great to have you on the team"
     ,"Professor Ex - Let's talk about teams"
-    ,"Professor Ex - You realize that I'm trying to put together a team"]
+    ,"Professor Ex - You realize that I'm trying to put together a team"
+    ,"Kung Fury - Teamwork is very important"]
   }
 
   ; Key: [
@@ -423,7 +425,9 @@ KeyEvent(code, state){
     ,"Naked Gun - My prospects looked bleaker"
     ,"Futurama - This is how you repay me"
     ,"Futurama - Booo"
-    ,"Futurama - I don't want to live"]
+    ,"Futurama - I don't want to live"
+    ,"Kung Fury - What the hell happened"
+    ,"Kung Fury - Balls"]
   }
 
   ; Key: K
@@ -453,10 +457,11 @@ KeyEvent(code, state){
     files := ["Badman - Thank you"
     ,"Badman - Thanks, chief"
     ,"Gene - It sounded very insincere as I remember"
-    ,"That solves most of my problems"
+    ,"Badman - That solves most of my problems"
     ,"Princess Bride - Thank you"
     ,"Princess Bride - Again, thank you"
-    ,"Kung Fury - Thanks"]
+    ,"Kung Fury - Thanks"
+    ,"Kung Fury - Thanks, bro"]
   }
 
   ; Key: semicolon
@@ -652,7 +657,8 @@ KeyEvent(code, state){
     ,"Futurama - I'll sell our children's organs"
     ,"Futurama - The angry dome"
     ,"Kung Fury - I blacked out"
-    ,"Kung Fury - I could feel my body mutate"]
+    ,"Kung Fury - I could feel my body mutate"
+    ,"Kung Fury - I'm a cop from the future"]
   }
 
   ; Key: period
@@ -743,7 +749,8 @@ KeyEvent(code, state){
     ,"TD - Can't you see"
     ,"Futurama - Look at me"
     ,"Futurama - Compare your lives to mine"
-    ,"Kung Fury - I was hit by lightning"]
+    ,"Kung Fury - I was hit by lightning"
+    ,"Kung Fury - Check out my pecks"]
   }
 
   ; Key: F1
@@ -762,7 +769,8 @@ KeyEvent(code, state){
     ,"Badman - What"
     ,"DM - I'm under what",
     ,"KP - What's wrong with yall"
-    ,"Spaceballs - What's his name"]
+    ,"Spaceballs - What's his name"
+    ,"Kung Fury - What the hell is this place"]
   }
   ; Key: F3
   if(code = 61) {
