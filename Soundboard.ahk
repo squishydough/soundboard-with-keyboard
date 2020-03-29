@@ -3,7 +3,7 @@
 ; ----------------------------------------------------------------------------------------------------------
 global KEYBOARD_VID   = 0x04CA
 global KEYBOARD_PID   = 0x0022
-global SOUNDS_DIR     = "D:\coding\apps\soundboard\sounds\"                     ; Directory of sound files
+global SOUNDS_DIR     = "C:\Users\Josh\Music\Soundboard\"                     ; Directory of sound files
 global SOUNDS_EXT     = ".mp3"                                                  ; Extension of sound files
 global VLC_PATH       = "C:\Program Files\VideoLAN\VLC\vlc.exe"                 ; Path of VLC Executable
 global VLC_AUDIO_OUT  = "VoiceMeeter Input (VB-Audio Voi ($1,$64)"              ; Audio out device in VLC
@@ -165,7 +165,6 @@ KeyEvent(code, state){
     ,"Badman - Goodbye"
     ,"Badman - I guess that's the end of scary face"
     ,"Badman - I've gotta go to bed"
-    ,"Badman - Roll away"
     ,"Badman - Screw you guys"
     ,"Goodbye, my love"
     ,"Professor Ex - Gonna go fight some nerds"
@@ -202,7 +201,8 @@ KeyEvent(code, state){
     ,"Tombstone - You gonna do something"
     ,"Tombstone - You're so drunk"
     ,"Tombstone - Walked over your grave"
-    ,"Spaceballs - Where is it"]
+    ,"Spaceballs - Where is it"
+    ,"Letterkenny - Make yourselves useful"]
   }
 
   ; Key: T
@@ -228,7 +228,6 @@ KeyEvent(code, state){
     ,"Professor Ex - Suck on it"
     ,"Professor Ex - You're dumb"
     ,"Professor Ex - You're garbage"
-    ,"Tombstone - Jerk that pistol and go to work"
     ,"Tombstone - You wretched slugs"
     ,"Tombstone - Guts to play for blood"
     ,"Buster Scruggs - You are no better a judge of character"
@@ -237,7 +236,14 @@ KeyEvent(code, state){
     ,"Spaceballs - Suck, suck, suck"
     ,"Futurama - Lick my frozen metal ass"
     ,"Kung Fury - I've got your permit"
-    ,"Kung Fury - Don't hassle the hoff"]
+    ,"Kung Fury - Don't hassle the hoff"
+    ,"Letterkenny - You ready for this, bud"
+    ,"Letterkenny - You're not getting this W"
+    ,"Letterkenny - Your mum just liked my instagram"
+    ,"Letterkenny - Box jump a bungalow"
+    ,"Letterkenny - Tell your mom to give me a timeout"
+    ,"Letterkenny - Should have heard your mom"
+    ,"Letterkenny - Should have heard your mom #2"]
   }
 
   ; Key: Y
@@ -245,21 +251,21 @@ KeyEvent(code, state){
     category := "INSULT"
     files := ["Badman - Wiggles the clown"
     ,"Badman - You look like the kid from a Christmas story"
-    ,"Gene - I'm going to write a eulogy"
-    ,"Linda - Look at how you stand"
+    ,"Bob's Burgers - Gene - I'm going to write a eulogy"
+    ,"Bob's Burgers - Linda - Look at how you stand"
     ,"Professor Ex - Are you hearing how lame you are"
     ,"Professor Ex - Clever, almost as clever as your name"
     ,"Professor Ex - Did you name yourself"
     ,"Professor Ex - Do you just like looking like a live action"
     ,"Professor Ex - If I wanted a useless bald guy, I'd hire Seal"
-    ,"Professor Ex - It was gross and I was more tense at the end of it"
     ,"Professor Ex - Look at this one, he's got webbed toes"
     ,"Professor Ex - One time you gave me a back rub"
     ,"Professor Ex - You kind of look like a 1980s Michael Jackson"
     ,"Professor Ex - You look like a tool that tells us the gender"
     ,"Professor Ex - You look like a trojan warrior who's real into madonna"
     ,"Professor Ex - You look like infected gums"
-    ,"You'll be our blueberry delivery girl"]
+    ,"Bob's Burgers - You'll be our blueberry delivery girl"
+    ,"Letterkenny - Your lives are so sad"]
   }
 
   ; Key: U
@@ -304,14 +310,18 @@ KeyEvent(code, state){
     ,"Professor Ex - Great to have you on the team"
     ,"Professor Ex - Let's talk about teams"
     ,"Professor Ex - You realize that I'm trying to put together a team"
-    ,"Kung Fury - Teamwork is very important"]
+    ,"Kung Fury - Teamwork is very important"
+    ,"Letterkenny - Ready to meet"]
   }
 
   ; Key: [
   if(code = 26) {
     category := "FRIENDLY"
     files := ["Buster Scruggs - I'll get that for you, partner"
-    ,"Futurama - Not necessary or wise to be naked"]
+    ,"Futurama - Not necessary or wise to be naked"
+    ,"Letterkenny - Always a silver lining"
+    ,"Letterkenny - Game faces on"
+    ,"Kung Fury - You're like a father to me"]
   }
 
   ; Key: ]
@@ -392,7 +402,9 @@ KeyEvent(code, state){
     ,"DM - Have a look at the headlock here"
     ,"Spaceballs - Smoke if you got em"
     ,"Badman - Swear to me"
-    ,"Kung Fury - Follow me"]
+    ,"Kung Fury - Follow me"
+    ,"Letterkenny - Come on"
+    ,"Letterkenny - Give your balls a tug"]
   }
 
   ; Key: H
@@ -441,8 +453,6 @@ KeyEvent(code, state){
     ,"Badman - Please don't"
     ,"Badman - Shh, not so loud"
     ,"Badman - Stop it"
-    ,"Badman - Stop"
-    ,"Badman - Wait"
     ,"Bob - Shut up"
     ,"Linda - Slow it down, you want to look like oompa loompa"
     ,"Linda - Stop it now"
@@ -481,7 +491,9 @@ KeyEvent(code, state){
     ,"Tombstone - Skin that smokewagon"
     ,"Tombstone - You die first"
     ,"Tombstone - I have two guns"
-    ,"Naked Gun - Now listen to me, angel drawers"]
+    ,"Tombstone - Jerk that pistol and go to work"
+    ,"Naked Gun - Now listen to me, angel drawers"
+    ,"Letterkenny - Fight me"]
   }
 
   ; Key: Z
@@ -511,7 +523,8 @@ KeyEvent(code, state){
     ,"Tombstone - You're not as stupid as you look"
     ,"Spaceballs - I know that"
     ,"Naked Gun - You're both right"
-    ,"Naked Gun - That's true"]
+    ,"Naked Gun - That's true"
+    ,"Letterkenny - But he's right"]
   }
 
   ; Key: X
@@ -604,14 +617,14 @@ KeyEvent(code, state){
 
   ; Key: M
   if(code = 50) {
-    category := "COMPLIMENT"
+    category := "ENCOURAGE"
     files := ["Badman - He's kind of the coolest"
     ,"Badman - It was great"
     ,"Badman - Major game changer"
     ,"Badman - That's perfect"
     ,"Badman - What a hero"
-    ,"Gene - Yeah, that's you!"
-    ,"That's not bad"
+    ,"Bob's Burgers - Gene - Yeah, that's you!"
+    ,"Badman - That's not bad"
     ,"DM - I see that you know your judo"
     ,"DM - That's a nice headlock"
     ,"SNL - I love that"
@@ -626,8 +639,10 @@ KeyEvent(code, state){
     ,"TD - Will you just teach me"
     ,"Futurama - Good work everyone"
     ,"Kung Fury - Best partner I ever had"
-    ,"Kung Fury - You're like a father to me"
-    ,"Kung Fury - She's a killing machine"]
+    ,"Kung Fury - She's a killing machine"
+    ,"Letterkenny - Paycheck, bro"
+    ,"Letterkenny - Look at that hustle"
+    ,"Letterkenny - Maxing every second"]
   }
 
   ; Key: comma
@@ -658,7 +673,8 @@ KeyEvent(code, state){
     ,"Futurama - The angry dome"
     ,"Kung Fury - I blacked out"
     ,"Kung Fury - I could feel my body mutate"
-    ,"Kung Fury - I'm a cop from the future"]
+    ,"Kung Fury - I'm a cop from the future"
+    ,"Letterkenny - I should be mad"]
   }
 
   ; Key: period
@@ -715,7 +731,11 @@ KeyEvent(code, state){
     ,"Buster Scruggs - I too have violated laws"
     ,"Futurama - Don't make me smell uranus"
     ,"Kung Fury - You're under arrest, punk"
-    ,"Kung Fury - That explains the laser raptor"]
+    ,"Kung Fury - That explains the laser raptor"
+    ,"Letterkenny - First impression's a lasting one"
+    ,"Letterkenny - I hit you, you have pavement"
+    ,"Letterkenny - Top off the cell"
+    ,"Letterkenny - I'm ready to snap crackle"]
   }
 
   ; Key: Spacebar
@@ -750,7 +770,10 @@ KeyEvent(code, state){
     ,"Futurama - Look at me"
     ,"Futurama - Compare your lives to mine"
     ,"Kung Fury - I was hit by lightning"
-    ,"Kung Fury - Check out my pecks"]
+    ,"Kung Fury - Check out my pecks"
+    ,"Letterkenny - Lucky for your pheasants"
+    ,"Letterkenny - Multitasking"
+    ,"Letterkenny - That's how you get the W"]
   }
 
   ; Key: F1
@@ -801,7 +824,7 @@ KeyEvent(code, state){
     category := "NSFW"
     files := ["Badman - Fuck my face"
     ,"Badman - Where were the other drugs going"
-    ,"BADMAN - Fuck this"
+    ,"Badman - Fuck this"
     ,"Spaceballs - How many assholes"
     ,"Spaceballs - I'm surrounded by assholes"
     ,"Spaceballs - Keep firing, assholes"
@@ -809,7 +832,8 @@ KeyEvent(code, state){
     ,"Naked Gun - Like a blind man"
     ,"Naked Gun - I like my sex how I like my basketball"
     ,"Kung Fury - Fuck you"
-    ,"Kung Fury - Fuck"]
+    ,"Kung Fury - Fuck"
+    ,"Letterkenny - Fuck your entire life"]
   }
 
   ; Key: F10
@@ -829,7 +853,8 @@ KeyEvent(code, state){
     ,"DIRTY - Tina - If you think about it, any box could have vibrators"
     ,"DIRTY - You tamed my monster"
     ,"DIRTY - DM - Get your hand off my penis"
-    ,"DIRTY - DM - This is the bloke who got me on the penis"]
+    ,"DIRTY - DM - This is the bloke who got me on the penis"
+    ,"DIRTY - Letterkenny - Dick dingers"]
   }
 
   ; Key: Num7
@@ -860,7 +885,8 @@ KeyEvent(code, state){
   if(code = 75) {
     category := "GROSS"
     files := ["Louise - Sick"
-    ,"Professor Ex - Well, to put it simply, I find you very gross"]
+    ,"Professor Ex - Well, to put it simply, I find you very gross"
+    ,"Professor Ex - It was gross "]
   }
 
   ; Key: Num5
@@ -912,7 +938,20 @@ KeyEvent(code, state){
     ,"TAUNT - Badman - Fuck yourself"
     ,"TAUNT - Spaceballs - He's an asshole"
     ,"TAUNT - Spaceballs - He's an asshole too, sir"
-    ,"TAUNT - Spaceballs - You fat bearded bitch"]
+    ,"TAUNT - Spaceballs - You fat bearded bitch"
+    ,"TAUNT - Letterkenny - The fuck you looking at"
+    ,"TAUNT - Letterkenny - Three things"
+    ,"TAUNT - Letterkenny - Three things #2"
+    ,"TAUNT - Letterkenny - Tell your mom I drained"
+    ,"TAUNT - Letterkenny - Your mom loves butt play"
+    ,"TAUNT - Letterkenny - Made your mom so wet"
+    ,"TAUNT - Letterkenny - Your lives are pathetic"
+    ,"TAUNT - Letterkenny - Your breath is a crisis"
+    ,"TAUNT - Letterkenny - Your mom groped me"
+    ,"TAUNT - Letterkenny - Hurry up and score"
+    ,"TAUNT - Letterkenny - Tell your mom to leave me alone"
+    ,"TAUNT - Letterkenny - Threw off pH levels"
+    ,"TAUNT - Letterkenny - Your mom ugly cried"]
   }
 
   ; Key: F12
