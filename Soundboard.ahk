@@ -212,22 +212,14 @@ KeyEvent(code, state){
     ,"Badman - Don't be stupid"
     ,"Badman - Hope starts with an H, stupid"
     ,"Badman - Look at you with your stupid outfit"
-    ,"Badman - No, nothing"
     ,"Badman - Oh, having trouble"
     ,"Badman - Scary face"
     ,"Badman - Super jerk"
     ,"Badman - What do you have to say for yourself"
     ,"Badman - What is it now"
     ,"Badman - You have my permission to cry"
-    ,"Badman - You're an idiot #2"
-    ,"Badman - You're an idiot"
-    ,"Badman - You're garbage"
     ,"Bob - I think I can fix him"
-    ,"Linda - Look at you"
-    ,"Professor Ex - Salt"
     ,"Professor Ex - Suck on it"
-    ,"Professor Ex - You're dumb"
-    ,"Professor Ex - You're garbage"
     ,"Tombstone - You wretched slugs"
     ,"Tombstone - Guts to play for blood"
     ,"Buster Scruggs - You are no better a judge of character"
@@ -243,7 +235,9 @@ KeyEvent(code, state){
     ,"Letterkenny - Box jump a bungalow"
     ,"Letterkenny - Tell your mom to give me a timeout"
     ,"Letterkenny - Should have heard your mom"
-    ,"Letterkenny - Should have heard your mom #2"]
+    ,"Letterkenny - Should have heard your mom #2"
+    ,"Professor Ex - The moment you were born"
+    ,"Professor Ex - Do you drive a honda"]
   }
 
   ; Key: Y
@@ -265,7 +259,16 @@ KeyEvent(code, state){
     ,"Professor Ex - You look like a trojan warrior who's real into madonna"
     ,"Professor Ex - You look like infected gums"
     ,"Bob's Burgers - You'll be our blueberry delivery girl"
-    ,"Letterkenny - Your lives are so sad"]
+    ,"Letterkenny - Your lives are so sad"
+    ,"Professor Ex - You're dumb"
+    ,"Professor Ex - You're garbage"
+    ,"Badman - You're an idiot #2"
+    ,"Badman - You're an idiot"
+    ,"Badman - You're garbage"
+    ,"Professor Ex - You were a message from god"
+    ,"Professor Ex - On your way to a bachelor party"
+    ,"Professor Ex - Without cards, you're garbage"
+    ,"Professor Ex - I'm sure you can get work"]
   }
 
   ; Key: U
@@ -297,7 +300,8 @@ KeyEvent(code, state){
     ,"Louise - Whoa"
     ,"Queen - Mama mia"
     ,"KP - What"
-    ,"Futurama - Wow, neat"]
+    ,"Futurama - Wow, neat"
+    ,"Robot Chicken - Whoa whoa whoa"]
   }
 
   ; Key: P
@@ -321,7 +325,8 @@ KeyEvent(code, state){
     ,"Futurama - Not necessary or wise to be naked"
     ,"Letterkenny - Always a silver lining"
     ,"Letterkenny - Game faces on"
-    ,"Kung Fury - You're like a father to me"]
+    ,"Kung Fury - You're like a father to me"
+    ,"Tombstone - Now we can be friends again"]
   }
 
   ; Key: ]
@@ -353,7 +358,8 @@ KeyEvent(code, state){
     ,"DM - A succulent chinese meal"
     ,"Spaceballs - You went over my helmet"
     ,"Spaceballs - Take a five minute break"
-    ,"Kung Fury - I'm not sure"]
+    ,"Kung Fury - I'm not sure"
+    ,"Robot Chicken - Did you ever have one of those moments"]
   }
 
   ; Key: D
@@ -417,7 +423,8 @@ KeyEvent(code, state){
     ,"Badman - Who punches a hand"
     ,"Professor Ex - Ouch"
     ,"DM - Why did you do this to me"
-    ,"Princess Bride - I hate to die"]
+    ,"Princess Bride - I hate to die"
+    ,"Robot Chicken - I'm a fatality"]
   }
 
   ; Key: J
@@ -439,7 +446,9 @@ KeyEvent(code, state){
     ,"Futurama - Booo"
     ,"Futurama - I don't want to live"
     ,"Kung Fury - What the hell happened"
-    ,"Kung Fury - Balls"]
+    ,"Kung Fury - Balls"
+    ,"Professor Ex - We should have sent it back"
+    ,"Robot Chicken - I just wanted to borrow"]
   }
 
   ; Key: K
@@ -493,7 +502,8 @@ KeyEvent(code, state){
     ,"Tombstone - I have two guns"
     ,"Tombstone - Jerk that pistol and go to work"
     ,"Naked Gun - Now listen to me, angel drawers"
-    ,"Letterkenny - Fight me"]
+    ,"Letterkenny - Fight me"
+    ,"Letterkenny - I hit you, you have pavement"]
   }
 
   ; Key: Z
@@ -524,7 +534,9 @@ KeyEvent(code, state){
     ,"Spaceballs - I know that"
     ,"Naked Gun - You're both right"
     ,"Naked Gun - That's true"
-    ,"Letterkenny - But he's right"]
+    ,"Letterkenny - But he's right"
+    ,"Professor Ex - I completely agree"
+    ,"Robot Chicken - I know"]
   }
 
   ; Key: X
@@ -612,14 +624,14 @@ KeyEvent(code, state){
     ,"Louise - What is this thing I'm feeling"
     ,"Professor Ex - I hope you accept my apology"
     ,"KP - I'm sorry"
-    ,"Tombstone - I apologize"]
+    ,"Tombstone - I apologize"
+    ,"Professor Ex - I am sorry"]
   }
 
   ; Key: M
   if(code = 50) {
     category := "ENCOURAGE"
     files := ["Badman - He's kind of the coolest"
-    ,"Badman - It was great"
     ,"Badman - Major game changer"
     ,"Badman - That's perfect"
     ,"Badman - What a hero"
@@ -633,7 +645,6 @@ KeyEvent(code, state){
     ,"KP - You are a raging psycopath"
     ,"Princess Bride - I've never seen its equal"
     ,"Tombstone - Isn't that a daisy"
-    ,"Tombstone - Now we can be friends again"
     ,"TD - Awww man"
     ,"TD - That is the best thing"
     ,"TD - Will you just teach me"
@@ -642,7 +653,9 @@ KeyEvent(code, state){
     ,"Kung Fury - She's a killing machine"
     ,"Letterkenny - Paycheck, bro"
     ,"Letterkenny - Look at that hustle"
-    ,"Letterkenny - Maxing every second"]
+    ,"Letterkenny - Maxing every second"
+    ,"Professor Ex - Don't tell the others"
+    ,"Robot Chicken - People will be talking about this"]
   }
 
   ; Key: comma
@@ -674,7 +687,8 @@ KeyEvent(code, state){
     ,"Kung Fury - I blacked out"
     ,"Kung Fury - I could feel my body mutate"
     ,"Kung Fury - I'm a cop from the future"
-    ,"Letterkenny - I should be mad"]
+    ,"Letterkenny - I should be mad"
+    ,"Professor Ex - The carpet does not match the drapes"]
   }
 
   ; Key: period
@@ -733,9 +747,11 @@ KeyEvent(code, state){
     ,"Kung Fury - You're under arrest, punk"
     ,"Kung Fury - That explains the laser raptor"
     ,"Letterkenny - First impression's a lasting one"
-    ,"Letterkenny - I hit you, you have pavement"
     ,"Letterkenny - Top off the cell"
-    ,"Letterkenny - I'm ready to snap crackle"]
+    ,"Letterkenny - I'm ready to snap crackle"
+    ,"Professor Ex - If you were in heaven"
+    ,"Professor Ex - Thanks for reading part"
+    ,"Professor Ex - I think they're beginning to accept me"]
   }
 
   ; Key: Spacebar
@@ -773,7 +789,8 @@ KeyEvent(code, state){
     ,"Kung Fury - Check out my pecks"
     ,"Letterkenny - Lucky for your pheasants"
     ,"Letterkenny - Multitasking"
-    ,"Letterkenny - That's how you get the W"]
+    ,"Letterkenny - That's how you get the W"
+    ,"Robot Chicken - This is my thing"]
   }
 
   ; Key: F1
@@ -793,7 +810,8 @@ KeyEvent(code, state){
     ,"DM - I'm under what",
     ,"KP - What's wrong with yall"
     ,"Spaceballs - What's his name"
-    ,"Kung Fury - What the hell is this place"]
+    ,"Kung Fury - What the hell is this place"
+    ,"Professor Ex - What the hell was that"]
   }
   ; Key: F3
   if(code = 61) {
@@ -833,7 +851,9 @@ KeyEvent(code, state){
     ,"Naked Gun - I like my sex how I like my basketball"
     ,"Kung Fury - Fuck you"
     ,"Kung Fury - Fuck"
-    ,"Letterkenny - Fuck your entire life"]
+    ,"Letterkenny - Fuck your entire life"
+    ,"Professor Ex - I'm shitcanning you"
+    ,"Robot Chicken - You killed my brother"]
   }
 
   ; Key: F10
@@ -854,7 +874,10 @@ KeyEvent(code, state){
     ,"DIRTY - You tamed my monster"
     ,"DIRTY - DM - Get your hand off my penis"
     ,"DIRTY - DM - This is the bloke who got me on the penis"
-    ,"DIRTY - Letterkenny - Dick dingers"]
+    ,"DIRTY - Letterkenny - Dick dingers"
+    ,"DIRTY - Professor Ex - If you're into big hairy"
+    ,"DIRTY - Professor Ex - Remember when they rated"
+    ,"DIRTY - Professor Ex - It was dicks"]
   }
 
   ; Key: Num7
@@ -886,7 +909,8 @@ KeyEvent(code, state){
     category := "GROSS"
     files := ["Louise - Sick"
     ,"Professor Ex - Well, to put it simply, I find you very gross"
-    ,"Professor Ex - It was gross "]
+    ,"Professor Ex - It was gross "
+    ,"Professor Ex - I believe they call that docking"]
   }
 
   ; Key: Num5
@@ -963,7 +987,8 @@ KeyEvent(code, state){
     ,"INSULT - Badman - You sucked my dick"
     ,"INSULT - Badman - You're fucking white bread"
     ,"INSULT - Fuck face"
-    ,"INSULT - Professor Ex - You look like the creepiest pervert's real doll"]
+    ,"INSULT - Professor Ex - You look like the creepiest pervert's real doll"
+    ,"INSULT - Professor Ex - He's a big hairy dick"]
   }
 
   ; Actually play the sound file
