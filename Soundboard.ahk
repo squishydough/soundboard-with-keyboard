@@ -115,7 +115,8 @@ KeyEvent(code, state){
   ; Key: 0
   if(code = 11) {
     category := "OBSERVATION"
-    files := ["Badman - Now you're back"]
+    files := ["Badman - Now you're back"
+    ,"Haunted House - Get Back"]
   }
 
   ; Key: minus
@@ -237,7 +238,8 @@ KeyEvent(code, state){
     ,"Letterkenny - Should have heard your mom"
     ,"Letterkenny - Should have heard your mom #2"
     ,"Professor Ex - The moment you were born"
-    ,"Professor Ex - Do you drive a honda"]
+    ,"Professor Ex - Do you drive a honda"
+    ,"Haunted House - I can't wait"]
   }
 
   ; Key: Y
@@ -467,7 +469,9 @@ KeyEvent(code, state){
     ,"Linda - Stop it now"
     ,"KP - Hold on a second"
     ,"KP - Shut your mouth for a second"
-    ,"Schitt's Creek - You shut up"]
+    ,"Schitt's Creek - You shut up"
+    ,"Daddy Chill"
+    ,"Haunted House - Shut up"]
   }
 
   ; Key: L
@@ -503,7 +507,9 @@ KeyEvent(code, state){
     ,"Tombstone - Jerk that pistol and go to work"
     ,"Naked Gun - Now listen to me, angel drawers"
     ,"Letterkenny - Fight me"
-    ,"Letterkenny - I hit you, you have pavement"]
+    ,"Letterkenny - I hit you, you have pavement"
+    ,"You're trespassing on my property"
+    ,"Haunted House - So what's going on with this beef"]
   }
 
   ; Key: Z
@@ -655,7 +661,8 @@ KeyEvent(code, state){
     ,"Letterkenny - Look at that hustle"
     ,"Letterkenny - Maxing every second"
     ,"Professor Ex - Don't tell the others"
-    ,"Robot Chicken - People will be talking about this"]
+    ,"Robot Chicken - People will be talking about this"
+    ,"Haunted House - Sexy baked potato"]
   }
 
   ; Key: comma
@@ -790,7 +797,8 @@ KeyEvent(code, state){
     ,"Letterkenny - Lucky for your pheasants"
     ,"Letterkenny - Multitasking"
     ,"Letterkenny - That's how you get the W"
-    ,"Robot Chicken - This is my thing"]
+    ,"Robot Chicken - This is my thing"
+    ,"Haunted House - We can't be on tv"]
   }
 
   ; Key: F1
@@ -811,7 +819,8 @@ KeyEvent(code, state){
     ,"KP - What's wrong with yall"
     ,"Spaceballs - What's his name"
     ,"Kung Fury - What the hell is this place"
-    ,"Professor Ex - What the hell was that"]
+    ,"Professor Ex - What the hell was that"
+    ,"What the hell is even that"]
   }
   ; Key: F3
   if(code = 61) {
@@ -853,7 +862,8 @@ KeyEvent(code, state){
     ,"Kung Fury - Fuck"
     ,"Letterkenny - Fuck your entire life"
     ,"Professor Ex - I'm shitcanning you"
-    ,"Robot Chicken - You killed my brother"]
+    ,"Robot Chicken - You killed my brother"
+    ,"Haunted House - IDGAF"]
   }
 
   ; Key: F10
