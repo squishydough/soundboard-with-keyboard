@@ -42,7 +42,7 @@ This project combines several tools to get the effect that we need. Please insta
   - Browse to the `AHI\Interception\command line installer` folder.
   - Type `install-interception.exe /install`.
 
-    ![Install Interception](Misc/InterceptionInstall.gif)
+    ![Install Interception](https://squishy-public.s3.us-east-2.amazonaws.com/soundboard-readme/InterceptionInstall.gif)
 
 - [Audials](https://audials.com/en) - _OPTIONAL_ - I used the paid version of this tool (\$20 license at time of writing) to save YouTube videos as audio files. It gets me the audio for an entire video in a matter of seconds, which I can then chop apart for the quotes I want.
 
@@ -71,7 +71,7 @@ Please see the screenshot below for my specific VoiceMeeter setup.
 
 3. For hardware out, click A1 and choose your primary sound device.
 
-![VoiceMeeter screenshot](Misc/VoiceMeeter.png)
+![VoiceMeeter screenshot](https://squishy-public.s3.us-east-2.amazonaws.com/soundboard-readme/VoiceMeeter.PNG)
 
 ### Step 4: Update your sound devices
 
@@ -83,7 +83,7 @@ Please see the screenshot below for my specific sound settings.
 
 3. Input should be the VoiceMeeter device.
 
-![SoundSettings screenshot](Misc/SoundSettings.png)
+![SoundSettings screenshot](https://squishy-public.s3.us-east-2.amazonaws.com/soundboard-readme/SoundSettings.PNG)
 
 ### Step 5: Get the second keyboard VID and PID
 
@@ -95,7 +95,7 @@ Each keyboard has a unique VID and PID. We use these in our scripts to reliably 
 
 3. Check all of the keyboard devices, then press a key on the keyboard. The output portion of the window will show the device ID of the keyboard, and you can then get the VID and PID.
 
-   ![AHKMonitor](Misc/AHIMonitor.png)
+   ![AHKMonitor](https://squishy-public.s3.us-east-2.amazonaws.com/soundboard-readme/AHIMonitor.PNG)
 
 4. Open your preferred code editor and open `Soundboard.ahk` from the project root.
 
@@ -135,4 +135,4 @@ The code will be commented heavily and should provide enough information for you
 
 I have provided a keyboard map of my sound mapping and layout that you can use as a reference. I found a pack of small Post-It notes that came with 5 colors, and that dictates what I used in the keyboard map. I glue the Post-Its to the keys and we are in business!
 
-![KeyboardMap](Misc/KeyboardMap.jpg)
+![KeyboardMap](https://squishy-public.s3.us-east-2.amazonaws.com/soundboard-readme/KeyboardMap.jpg)
