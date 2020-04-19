@@ -1,3 +1,5 @@
+; TODO: Add Fuck You key
+
 ; ----------------------------------------------------------------------------------------------------------
 ;    UPDATE THESE VARIABLES TO MATCH YOUR SETTINGS 
 ; ----------------------------------------------------------------------------------------------------------
@@ -241,7 +243,23 @@ KeyEvent(code, state){
     ,"Professor Ex - The moment you were born"
     ,"Professor Ex - Do you drive a honda"
     ,"Haunted House - I can't wait"
-    ,"John Oliver - Pathetically thirsty"]
+    ,"John Oliver - Pathetically thirsty"
+    ,"Letterkenny - Hurry up and score"
+    ,"Letterkenny - Made your mom so wet"
+    ,"Letterkenny - Tell your mom I drained"
+    ,"Letterkenny - Tell your mom to leave me alone"
+    ,"Letterkenny - The fuck you looking at"
+    ,"Letterkenny - Three things #2"
+    ,"Letterkenny - Three things"
+    ,"Letterkenny - Threw off pH levels"
+    ,"Letterkenny - Your breath is a crisis"
+    ,"Letterkenny - Your lives are pathetic"
+    ,"Letterkenny - Your mom groped me"
+    ,"Letterkenny - Your mom loves butt play"
+    ,"Letterkenny - Your mom ugly cried"
+    ,"Spaceballs - He's an asshole too, sir"
+    ,"Spaceballs - He's an asshole"
+    ,"Spaceballs - You fat bearded bitch"]
   }
 
   ; Key: Y
@@ -994,30 +1012,10 @@ KeyEvent(code, state){
   }
 
   ; Key: F11
-  if(code = 87) {
-    category := "NSFW"
-    files := ["TAUNT - Badman - Fuck you"
-    ,"TAUNT - Badman - Fuck yourself"
-    ,"TAUNT - Spaceballs - He's an asshole"
-    ,"TAUNT - Spaceballs - He's an asshole too, sir"
-    ,"TAUNT - Spaceballs - You fat bearded bitch"
-    ,"TAUNT - Letterkenny - The fuck you looking at"
-    ,"TAUNT - Letterkenny - Three things"
-    ,"TAUNT - Letterkenny - Three things #2"
-    ,"TAUNT - Letterkenny - Tell your mom I drained"
-    ,"TAUNT - Letterkenny - Your mom loves butt play"
-    ,"TAUNT - Letterkenny - Made your mom so wet"
-    ,"TAUNT - Letterkenny - Your lives are pathetic"
-    ,"TAUNT - Letterkenny - Your breath is a crisis"
-    ,"TAUNT - Letterkenny - Your mom groped me"
-    ,"TAUNT - Letterkenny - Hurry up and score"
-    ,"TAUNT - Letterkenny - Tell your mom to leave me alone"
-    ,"TAUNT - Letterkenny - Threw off pH levels"
-    ,"TAUNT - Letterkenny - Your mom ugly cried"]
-  }
+  ;if(code = 87) {}
 
   ; Key: F12
-  if(code = 88) {}
+  ;if(code = 88) {}
 
   ; Actually play the sound file
   PlayRandomSound(code)
