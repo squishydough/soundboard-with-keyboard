@@ -560,17 +560,14 @@ KeyEvent(code, state){
     ,"Badman - Yeah, I know"
     ,"Badman - Yes, I know"
     ,"Badman - Yes, we do"
-    ,"Badman - Yes, yes"
     ,"Hippie - Exactly"
     ,"Linda - Yeah, I know"
     ,"Mickie - I love it, I love it"
-    ,"Not a bad idea"
     ,"Professor Ex - I agree"
     ,"Professor Ex - Indubitably"
     ,"Professor Ex - Problem solved"
     ,"Yeah, that sounds good"
     ,"SNL - Absolutely"
-    ,"Tombstone - Yeah, it's a fact"
     ,"Tombstone - You're not as stupid as you look"
     ,"Spaceballs - I know that"
     ,"Naked Gun - You're both right"
@@ -616,7 +613,9 @@ KeyEvent(code, state){
     ,"Mickie - Yes"
     ,"Professor Ex - Yes, very impressive"
     ,"Yeah, I swear to god"
-    ,"Buster Scruggs - Appears to do, yes"]
+    ,"Buster Scruggs - Appears to do, yes"
+    ,"DM - Ahhh yes"
+    ,"Badman - Yes, yes"]
   }
 
   ; Key: V
