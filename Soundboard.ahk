@@ -273,7 +273,15 @@ KeyEvent(code, state){
     ,"Professor Ex - On your way to a bachelor party"
     ,"Professor Ex - Without cards, you're garbage"
     ,"Professor Ex - I'm sure you can get work"
-    ,"John Oliver - They're a bunch of fopdoodles"]
+    ,"John Oliver - They're a bunch of fopdoodles"
+    ,"Professor Ex - You look like the creepiest pervert's real doll"
+    ,"Badman - I didn't just inherit my abilities"
+    ,"Badman - What a dick"
+    ,"Badman - You fucking nerd"
+    ,"Badman - You sucked my dick"
+    ,"Badman - You're fucking white bread"
+    ,"Badman - Fuck face"
+    ,"Professor Ex - He's a big hairy dick"]
   }
 
   ; Key: U
@@ -1009,17 +1017,7 @@ KeyEvent(code, state){
   }
 
   ; Key: F12
-  if(code = 88) {
-    category := "NSFW"
-    files := ["INSULT - Badman - I didn't just inherit my abilities"
-    ,"INSULT - Badman - What a dick"
-    ,"INSULT - Badman - You fucking nerd"
-    ,"INSULT - Badman - You sucked my dick"
-    ,"INSULT - Badman - You're fucking white bread"
-    ,"INSULT - Fuck face"
-    ,"INSULT - Professor Ex - You look like the creepiest pervert's real doll"
-    ,"INSULT - Professor Ex - He's a big hairy dick"]
-  }
+  if(code = 88) {}
 
   ; Actually play the sound file
   PlayRandomSound(code)
