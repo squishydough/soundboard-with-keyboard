@@ -1,4 +1,7 @@
-; TODO: Add Fuck You key
+; TODO: Add FUCK YOU Key
+; TODO: Add FUCK THIS Key
+; TODO: Add IDGAF Key
+; TODO: Add DIRTY Key
 
 ; ----------------------------------------------------------------------------------------------------------
 ;    UPDATE THESE VARIABLES TO MATCH YOUR SETTINGS 
@@ -443,7 +446,8 @@ KeyEvent(code, state){
     ,"Badman - Swear to me"
     ,"Kung Fury - Follow me"
     ,"Letterkenny - Come on"
-    ,"Letterkenny - Give your balls a tug"]
+    ,"Letterkenny - Give your balls a tug"
+    ,"Spaceballs - Keep firing, assholes"]
   }
 
   ; Key: H
@@ -458,7 +462,8 @@ KeyEvent(code, state){
     ,"DM - Why did you do this to me"
     ,"Princess Bride - I hate to die"
     ,"Robot Chicken - I'm a fatality"
-    ,"John Oliver - I love corndogs"]
+    ,"John Oliver - I love corndogs"
+    ,"Robot Chicken - You killed my brother"]
   }
 
   ; Key: J
@@ -484,7 +489,9 @@ KeyEvent(code, state){
     ,"Professor Ex - We should have sent it back"
     ,"Robot Chicken - I just wanted to borrow"
     ,"Mitchel and Webb - Are we the baddies"
-    ,"John Oliver - And that is a problem"]
+    ,"John Oliver - And that is a problem"
+    ,"Spaceballs - I'm surrounded by assholes"
+    ,"Spaceballs - Oh shit, there goes the planet"]
   }
 
   ; Key: K
@@ -759,7 +766,9 @@ KeyEvent(code, state){
     ,"Naked Gun - Like a midget at a urinal"
     ,"Kung Fury - Yeah, that's my bicep"
     ,"John Oliver - If we don't nurture"
-    ,"John Oliver - Anything can be food"]
+    ,"John Oliver - Anything can be food"
+    ,"Naked Gun - Like a blind man"
+    ,"Naked Gun - I like my sex how I like my basketball"]
   }
 
   ; Key: front slash
@@ -875,7 +884,8 @@ KeyEvent(code, state){
   if(code = 62) {
     category := "WHERE"
     files := ["Badman - (Spanish) Where were the drugs going"
-    ,"Spaceballs - Where is it"]
+    ,"Spaceballs - Where is it"
+    ,"Badman - Where were the other drugs going"]
   }
   ; Key: F5
   if(code = 63) {
@@ -888,52 +898,15 @@ KeyEvent(code, state){
   ; Key: F6
   if(code = 64) {
     category := "HOW"
-    files := ["Badman - I broke you, how have you come back"]
+    files := ["Badman - I broke you, how have you come back"
+    ,"Spaceballs - How many assholes"]
   }
 
   ; Key: F9
-  if(code = 67) {
-    category := "NSFW"
-    files := ["Badman - Fuck my face"
-    ,"Badman - Where were the other drugs going"
-    ,"Badman - Fuck this"
-    ,"Spaceballs - How many assholes"
-    ,"Spaceballs - I'm surrounded by assholes"
-    ,"Spaceballs - Keep firing, assholes"
-    ,"Spaceballs - Oh shit, there goes the planet"
-    ,"Naked Gun - Like a blind man"
-    ,"Naked Gun - I like my sex how I like my basketball"
-    ,"Kung Fury - Fuck you"
-    ,"Kung Fury - Fuck"
-    ,"Letterkenny - Fuck your entire life"
-    ,"Professor Ex - I'm shitcanning you"
-    ,"Robot Chicken - You killed my brother"
-    ,"Haunted House - IDGAF"]
-  }
+  ;if(code = 67) {}
 
   ; Key: F10
-  if(code = 68) {
-    category := "NSFW"
-    files := ["DIRTY -  Badman - It's been a while"
-    ,"DIRTY - Badman - All sex jokes aside"
-    ,"DIRTY - Badman - Ass, Mouth, Vag"
-    ,"DIRTY - Badman - How does it feel to have something hard penetrate your body"
-    ,"DIRTY - Badman - It was like an all you can fuck buffet"
-    ,"DIRTY - Badman - Spit in my mouth"
-    ,"DIRTY - Badman - There's no boners, they die"
-    ,"DIRTY - Badman - With my dick"
-    ,"DIRTY - Bob - It's not a sex thing, though"
-    ,"DIRTY - Gene - Tell that to my vagina"
-    ,"DIRTY - Mickie - There's snaps in the crotch"
-    ,"DIRTY - Tina - If you think about it, any box could have vibrators"
-    ,"DIRTY - You tamed my monster"
-    ,"DIRTY - DM - Get your hand off my penis"
-    ,"DIRTY - DM - This is the bloke who got me on the penis"
-    ,"DIRTY - Letterkenny - Dick dingers"
-    ,"DIRTY - Professor Ex - If you're into big hairy"
-    ,"DIRTY - Professor Ex - Remember when they rated"
-    ,"DIRTY - Professor Ex - It was dicks"]
-  }
+  ;if(code = 68) {}
 
   ; Key: Num7
   if(code = 71) {
@@ -1000,7 +973,8 @@ KeyEvent(code, state){
     ,"Professor Ex - It's a pleasure to fire you"
     ,"Professor Ex - I've been going over your file"
     ,"Professor Ex - You're fired"
-    ,"Professor Ex - You're worthless and you're fired"]
+    ,"Professor Ex - You're worthless and you're fired"
+    ,"Professor Ex - I'm shitcanning you"]
   }
 
   ; Key: Num3
