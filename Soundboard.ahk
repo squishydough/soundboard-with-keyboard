@@ -179,7 +179,8 @@ KeyEvent(code, state){
     ,"Futurama - Game's over, losers"
     ,"Futurama - Thank you and goodnight"
     ,"Kung Fury - Game over"
-    ,"Kung Fury - Good luck to you"]
+    ,"Kung Fury - Good luck to you"
+    ,"John Oliver - Goodnight"]
   }
 
   ; Key: R
@@ -239,7 +240,8 @@ KeyEvent(code, state){
     ,"Letterkenny - Should have heard your mom #2"
     ,"Professor Ex - The moment you were born"
     ,"Professor Ex - Do you drive a honda"
-    ,"Haunted House - I can't wait"]
+    ,"Haunted House - I can't wait"
+    ,"John Oliver - Pathetically thirsty"]
   }
 
   ; Key: Y
@@ -270,7 +272,8 @@ KeyEvent(code, state){
     ,"Professor Ex - You were a message from god"
     ,"Professor Ex - On your way to a bachelor party"
     ,"Professor Ex - Without cards, you're garbage"
-    ,"Professor Ex - I'm sure you can get work"]
+    ,"Professor Ex - I'm sure you can get work"
+    ,"John Oliver - They're a bunch of fopdoodles"]
   }
 
   ; Key: U
@@ -303,7 +306,9 @@ KeyEvent(code, state){
     ,"Queen - Mama mia"
     ,"KP - What"
     ,"Futurama - Wow, neat"
-    ,"Robot Chicken - Whoa whoa whoa"]
+    ,"Robot Chicken - Whoa whoa whoa"
+    ,"John Oliver - Wow"
+    ,"John Oliver - Whoa whoa whoa"]
   }
 
   ; Key: P
@@ -426,7 +431,8 @@ KeyEvent(code, state){
     ,"Professor Ex - Ouch"
     ,"DM - Why did you do this to me"
     ,"Princess Bride - I hate to die"
-    ,"Robot Chicken - I'm a fatality"]
+    ,"Robot Chicken - I'm a fatality"
+    ,"John Oliver - I love corndogs"]
   }
 
   ; Key: J
@@ -450,7 +456,9 @@ KeyEvent(code, state){
     ,"Kung Fury - What the hell happened"
     ,"Kung Fury - Balls"
     ,"Professor Ex - We should have sent it back"
-    ,"Robot Chicken - I just wanted to borrow"]
+    ,"Robot Chicken - I just wanted to borrow"
+    ,"Mitchel and Webb - Are we the baddies"
+    ,"John Oliver - And that is a problem"]
   }
 
   ; Key: K
@@ -471,7 +479,8 @@ KeyEvent(code, state){
     ,"KP - Shut your mouth for a second"
     ,"Schitt's Creek - You shut up"
     ,"Daddy Chill"
-    ,"Haunted House - Shut up"]
+    ,"Haunted House - Shut up"
+    ,"John Oliver - Asshole Sandwich"]
   }
 
   ; Key: L
@@ -542,7 +551,9 @@ KeyEvent(code, state){
     ,"Naked Gun - That's true"
     ,"Letterkenny - But he's right"
     ,"Professor Ex - I completely agree"
-    ,"Robot Chicken - I know"]
+    ,"Robot Chicken - I know"
+    ,"John Oliver - It seems excellent"
+    ,"John Oliver - And that seems to hit the nail"]
   }
 
   ; Key: X
@@ -553,7 +564,11 @@ KeyEvent(code, state){
     ,"SNL - No, not true"
     ,"Tombstone - Nonsense"
     ,"Tombstone - I beg to differ"
-    ,"Futurama - You sound just like my tennis instructor"]
+    ,"Futurama - You sound just like my tennis instructor"
+    ,"John Oliver - Even when I'm wrong"
+    ,"John Oliver - Bad faith argument"
+    ,"John Oliver - That argument is a walk"
+    ,"John Oliver - A couple of things there"]
   }
 
   ; Key: C
@@ -662,7 +677,8 @@ KeyEvent(code, state){
     ,"Letterkenny - Maxing every second"
     ,"Professor Ex - Don't tell the others"
     ,"Robot Chicken - People will be talking about this"
-    ,"Haunted House - Sexy baked potato"]
+    ,"Haunted House - Sexy baked potato"
+    ,"John Oliver - Very nice"]
   }
 
   ; Key: comma
@@ -716,7 +732,9 @@ KeyEvent(code, state){
     ,"Buster Scruggs - I'd like a splash of whiskey"
     ,"Naked Gun - Awfully big mustache"
     ,"Naked Gun - Like a midget at a urinal"
-    ,"Kung Fury - Yeah, that's my bicep"]
+    ,"Kung Fury - Yeah, that's my bicep"
+    ,"John Oliver - If we don't nurture"
+    ,"John Oliver - Anything can be food"]
   }
 
   ; Key: front slash
@@ -758,7 +776,8 @@ KeyEvent(code, state){
     ,"Letterkenny - I'm ready to snap crackle"
     ,"Professor Ex - If you were in heaven"
     ,"Professor Ex - Thanks for reading part"
-    ,"Professor Ex - I think they're beginning to accept me"]
+    ,"Professor Ex - I think they're beginning to accept me"
+    ,"John Oliver - How to describe"]
   }
 
   ; Key: Spacebar
@@ -837,8 +856,9 @@ KeyEvent(code, state){
   if(code = 63) {
     category := "WHY"
     files := ["Badman - Why are you guys being this way"
-    ,"Why are you talking like that"
-    ,"Why does he do that every time we're committing a crime"]
+    ,"Badman - Why are you talking like that"
+    ,"Badman - Why does he do that every time we're committing a crime"
+    ,"John Oliver - Why would you admit"]
   }
   ; Key: F6
   if(code = 64) {
