@@ -185,7 +185,8 @@ KeyEvent(code, state){
     ,"Futurama - Thank you and goodnight"
     ,"Kung Fury - Game over"
     ,"Kung Fury - Good luck to you"
-    ,"John Oliver - Goodnight"]
+    ,"John Oliver - Goodnight"
+    ,"SNL - You may watch the rest"]
   }
 
   ; Key: R
@@ -217,6 +218,7 @@ KeyEvent(code, state){
     category := "TAUNT"
     files := ["Badman - Are you crying right now"
     ,"Badman - Don't be stupid"
+    ,"Badman - Fuck face"
     ,"Badman - Hope starts with an H, stupid"
     ,"Badman - Look at you with your stupid outfit"
     ,"Badman - Oh, having trouble"
@@ -262,7 +264,8 @@ KeyEvent(code, state){
     ,"Letterkenny - Your mom ugly cried"
     ,"Spaceballs - He's an asshole too, sir"
     ,"Spaceballs - He's an asshole"
-    ,"Spaceballs - You fat bearded bitch"]
+    ,"Spaceballs - You fat bearded bitch"
+    ,"SNL - Your English teacher"]
   }
 
   ; Key: Y
@@ -285,11 +288,6 @@ KeyEvent(code, state){
     ,"Professor Ex - You look like infected gums"
     ,"Bob's Burgers - You'll be our blueberry delivery girl"
     ,"Letterkenny - Your lives are so sad"
-    ,"Professor Ex - You're dumb"
-    ,"Professor Ex - You're garbage"
-    ,"Badman - You're an idiot #2"
-    ,"Badman - You're an idiot"
-    ,"Badman - You're garbage"
     ,"Professor Ex - You were a message from god"
     ,"Professor Ex - On your way to a bachelor party"
     ,"Professor Ex - Without cards, you're garbage"
@@ -297,12 +295,11 @@ KeyEvent(code, state){
     ,"John Oliver - They're a bunch of fopdoodles"
     ,"Professor Ex - You look like the creepiest pervert's real doll"
     ,"Badman - I didn't just inherit my abilities"
-    ,"Badman - What a dick"
     ,"Badman - You fucking nerd"
     ,"Badman - You sucked my dick"
     ,"Badman - You're fucking white bread"
-    ,"Badman - Fuck face"
-    ,"Professor Ex - He's a big hairy dick"]
+    ,"Professor Ex - He's a big hairy dick"
+    ,"SNL - You've been going to those parties"]
   }
 
   ; Key: U
@@ -337,7 +334,8 @@ KeyEvent(code, state){
     ,"Futurama - Wow, neat"
     ,"Robot Chicken - Whoa whoa whoa"
     ,"John Oliver - Wow"
-    ,"John Oliver - Whoa whoa whoa"]
+    ,"John Oliver - Whoa whoa whoa"
+    ,"SNL - Yikes"]
   }
 
   ; Key: P
@@ -376,7 +374,7 @@ KeyEvent(code, state){
   if(code = 30) {
     category := "HELP"
     files := ["Badman - I need help"
-    ,"Mickie - I'm going to need your help taking this off"]
+    ,"Mickie - I'm going to need your help"]
   }
 
   ; Key: S
@@ -395,7 +393,8 @@ KeyEvent(code, state){
     ,"Spaceballs - You went over my helmet"
     ,"Spaceballs - Take a five minute break"
     ,"Kung Fury - I'm not sure"
-    ,"Robot Chicken - Did you ever have one of those moments"]
+    ,"Robot Chicken - Did you ever have one of those moments"
+    ,"SNL - But it can't happen to a boy"]
   }
 
   ; Key: D
@@ -558,7 +557,6 @@ KeyEvent(code, state){
   if(code = 44) {
     category := "AGREE"
     files := ["Badman - Exactly"
-    ,"Badman - Right #2"
     ,"Badman - Right #3"
     ,"Badman - Right"
     ,"Badman - That sounds good to me"
@@ -567,7 +565,6 @@ KeyEvent(code, state){
     ,"Badman - Yeah, I know"
     ,"Badman - Yes, I know"
     ,"Badman - Yes, we do"
-    ,"Hippie - Exactly"
     ,"Linda - Yeah, I know"
     ,"Mickie - I love it, I love it"
     ,"Professor Ex - I agree"
@@ -583,7 +580,8 @@ KeyEvent(code, state){
     ,"Professor Ex - I completely agree"
     ,"Robot Chicken - I know"
     ,"John Oliver - It seems excellent"
-    ,"John Oliver - And that seems to hit the nail"]
+    ,"John Oliver - And that seems to hit the nail"
+    ,"SNL - That's right"]
   }
 
   ; Key: X
@@ -598,7 +596,10 @@ KeyEvent(code, state){
     ,"John Oliver - Even when I'm wrong"
     ,"John Oliver - Bad faith argument"
     ,"John Oliver - That argument is a walk"
-    ,"John Oliver - A couple of things there"]
+    ,"John Oliver - A couple of things there"
+    ,"SNL - None of my business"
+    ,"SNL - There's nothing wrong"
+    ,"SNL - Who will believe you"]
   }
 
   ; Key: C
@@ -710,7 +711,8 @@ KeyEvent(code, state){
     ,"Professor Ex - Don't tell the others"
     ,"Robot Chicken - People will be talking about this"
     ,"Haunted House - Sexy baked potato"
-    ,"John Oliver - Very nice"]
+    ,"John Oliver - Very nice"
+    ,"SNL - Good work Mary Jojo"]
   }
 
   ; Key: comma
@@ -768,7 +770,8 @@ KeyEvent(code, state){
     ,"John Oliver - If we don't nurture"
     ,"John Oliver - Anything can be food"
     ,"Naked Gun - Like a blind man"
-    ,"Naked Gun - I like my sex how I like my basketball"]
+    ,"Naked Gun - I like my sex how I like my basketball"
+    ,"SNL - Boy Tanya"]
   }
 
   ; Key: front slash
@@ -873,7 +876,8 @@ KeyEvent(code, state){
     ,"Spaceballs - What's his name"
     ,"Kung Fury - What the hell is this place"
     ,"Professor Ex - What the hell was that"
-    ,"What the hell is even that"]
+    ,"What the hell is even that"
+    ,"SNL - What's wrong with Tanya"]
   }
   ; Key: F3
   if(code = 61) {
