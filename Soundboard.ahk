@@ -183,7 +183,8 @@ KeyEvent(code, state){
     ,"Kung Fury - Game over"
     ,"Kung Fury - Good luck to you"
     ,"John Oliver - Goodnight"
-    ,"SNL - You may watch the rest"]
+    ,"SNL - You may watch the rest"
+    ,"SNL - Go smoke your weed"]
   }
 
   ; Key: R
@@ -518,7 +519,8 @@ KeyEvent(code, state){
     ,"Schitt's Creek - You shut up"
     ,"Daddy Chill"
     ,"Haunted House - Shut up"
-    ,"John Oliver - Asshole Sandwich"]
+    ,"John Oliver - Asshole Sandwich"
+    ,"SNL - Shut up, Craig"]
   }
 
   ; Key: L
