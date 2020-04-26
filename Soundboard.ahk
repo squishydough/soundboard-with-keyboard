@@ -1,7 +1,4 @@
-; TODO: Add FUCK YOU Key
-; TODO: Add FUCK THIS Key
 ; TODO: Add IDGAF Key
-; TODO: Add DIRTY Key
 
 ; ----------------------------------------------------------------------------------------------------------
 ;    UPDATE THESE VARIABLES TO MATCH YOUR SETTINGS 
@@ -323,7 +320,7 @@ KeyEvent(code, state){
 
   ; Key: O
   if(code = 24) {
-    category := "WHOA"
+    category := "SHOCK"
     files := ["Badman - Scream"
     ,"Badman - Wow, just wow"
     ,"Badman - Wow"
@@ -335,21 +332,30 @@ KeyEvent(code, state){
     ,"Robot Chicken - Whoa whoa whoa"
     ,"John Oliver - Wow"
     ,"John Oliver - Whoa whoa whoa"
-    ,"SNL - Yikes"]
+    ,"SNL - Yikes"
+    ,"Badman - Jesus"
+    ,"Badman - Dude, Jesus"]
   }
 
   ; Key: P
   if(code = 25) {
-    category := "TEAM"
-    files := ["Badman - I came here to team up"
-    ,"Badman - Looks like we're working together again"
-    ,"Mickie - Team back together"
-    ,"Mickie - The three amagos"
-    ,"Professor Ex - Great to have you on the team"
-    ,"Professor Ex - Let's talk about teams"
-    ,"Professor Ex - You realize that I'm trying to put together a team"
-    ,"Kung Fury - Teamwork is very important"
-    ,"Letterkenny - Ready to meet"]
+    category := "DIRTY"
+    files := ["DIRTY -  Badman - It's been a while"
+    ,"DIRTY - Badman - All sex jokes aside"
+    ,"DIRTY - Badman - Ass, Mouth, Vag"
+    ,"DIRTY - Badman - How does it feel to have something hard penetrate your body"
+    ,"DIRTY - Badman - It was like an all you can fuck buffet"
+    ,"DIRTY - Badman - Spit in my mouth"
+    ,"DIRTY - Badman - There's no boners, they die"
+    ,"DIRTY - DM - Get your hand off my penis"
+    ,"DIRTY - DM - This is the bloke who got me on the penis"
+    ,"DIRTY - Gene - Tell that to my vagina"
+    ,"DIRTY - Letterkenny - Dick dingers"
+    ,"DIRTY - Professor Ex - If you're into big hairy"
+    ,"DIRTY - Professor Ex - It was dicks"
+    ,"DIRTY - Professor Ex - Remember when they rated"
+    ,"DIRTY - Tina - If you think about it, any box could have vibrators"
+    ,"DIRTY - You tamed my monster"]
   }
 
   ; Key: [
@@ -966,7 +972,14 @@ KeyEvent(code, state){
   if(code = 79) {
     category := "RAGE"
     files := ["Badman - I'll get him with the skills I learned in the mountains"
-    ,"Badman - Screw this"]
+    ,"Badman - Screw this"
+    ,"Badman - Fuck this"
+    ,"Badman - Fuck My Face"
+    ,"Kung Fury - Fuck"
+    ,"Kung Fury - Fuck you"
+    ,"Letterkenny - Fuck your entire life"
+    ,"Badman - Fuck you"
+    ,"Badman - Fuck yourself"]
   }
 
   ; Key: Num2
@@ -983,9 +996,16 @@ KeyEvent(code, state){
 
   ; Key: Num3
   if(code = 81) {
-    category := "SHOCK"
-    files := ["Badman - Dude, Jesus"
-    ,"Badman - Jesus"]
+    category := "TEAM"
+    files := ["Badman - I came here to team up"
+    ,"Badman - Looks like we're working together again"
+    ,"Mickie - Team back together"
+    ,"Mickie - The three amagos"
+    ,"Professor Ex - Great to have you on the team"
+    ,"Professor Ex - Let's talk about teams"
+    ,"Professor Ex - You realize that I'm trying to put together a team"
+    ,"Kung Fury - Teamwork is very important"
+    ,"Letterkenny - Ready to meet"]
   }
 
   ; Key: F11
