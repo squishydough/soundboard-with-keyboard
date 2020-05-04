@@ -14,7 +14,7 @@ global VLC_AUDIO_OUT  = "VoiceMeeter Input (VB-Audio Voi ($1,$64)"              
 ; AHI Settings
 #SingleInstance force
 #Persistent
-#include AHI\Lib\AutoHotInterception.ahk
+#include AHI\Lib\AutoHotInterception.ahk 
 
 ; Initialize AHI
 AHI := new AutoHotInterception()
@@ -162,7 +162,8 @@ KeyEvent(code, state){
     ,"Kung Fury - Very nice meeting you"
     ,"Kung Fury - Behold, it is me"
     ,"Britanick - My name is Humphrey"
-    ,"Britanick - Hey with six ees"]
+    ,"Britanick - Hey with six ees"
+    ,"KP - Hello Sammy"]
   }
 
   ; Key: E
@@ -342,7 +343,8 @@ KeyEvent(code, state){
     ,"John Oliver - Whoa whoa whoa"
     ,"SNL - Yikes"
     ,"Badman - Jesus"
-    ,"Badman - Dude, Jesus"]
+    ,"Badman - Dude, Jesus"
+    ,"KP - We can get a set"]
   }
 
   ; Key: P
@@ -375,14 +377,16 @@ KeyEvent(code, state){
     ,"Letterkenny - Always a silver lining"
     ,"Letterkenny - Game faces on"
     ,"Kung Fury - You're like a father to me"
-    ,"Tombstone - Now we can be friends again"]
+    ,"Tombstone - Now we can be friends again"
+    ,"KP - Named Popeye"]
   }
 
   ; Key: ]
   if(code = 27) {
     category := "QUANTITY"
     files := ["Badman - Like a lot"
-    ,"Professor Ex - A little bit"]
+    ,"Professor Ex - A little bit"
+    ,"KP - Change a child's name"]
   }
 
   ; Key: A
@@ -598,7 +602,8 @@ KeyEvent(code, state){
     ,"Robot Chicken - I know"
     ,"John Oliver - It seems excellent"
     ,"John Oliver - And that seems to hit the nail"
-    ,"SNL - That's right"]
+    ,"SNL - That's right"
+    ,"KP - La Correct"]
   }
 
   ; Key: X
@@ -730,7 +735,8 @@ KeyEvent(code, state){
     ,"Haunted House - Sexy baked potato"
     ,"John Oliver - Very nice"
     ,"SNL - Good work Mary Jojo"
-    ,"Britanick - You can almost be a model"]
+    ,"Britanick - You can almost be a model"
+    ,"KP - Better name"]
   }
 
   ; Key: comma
