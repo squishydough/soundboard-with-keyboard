@@ -5,7 +5,7 @@
 ; ----------------------------------------------------------------------------------------------------------
 global KEYBOARD_VID   = 0x04CA
 global KEYBOARD_PID   = 0x0022
-global SOUNDS_DIR     = "C:\Users\Josh\Music\Soundboard\"                     ; Directory of sound files
+global SOUNDS_DIR     = "C:\Users\Josh\Documents\Soundboard\"                   ; Directory of sound files
 global SOUNDS_EXT     = ".mp3"                                                  ; Extension of sound files
 global VLC_PATH       = "C:\Program Files\VideoLAN\VLC\vlc.exe"                 ; Path of VLC Executable
 global VLC_AUDIO_OUT  = "VoiceMeeter Input (VB-Audio Voi ($1,$64)"              ; Audio out device in VLC
@@ -118,7 +118,8 @@ KeyEvent(code, state){
   if(code = 11) {
     category := "OBSERVATION"
     files := ["Badman - Now you're back"
-    ,"Haunted House - Get Back"]
+    ,"Haunted House - Get Back"
+    ,"Britanick - Are you back"]
   }
 
   ; Key: minus
@@ -147,7 +148,8 @@ KeyEvent(code, state){
     ,"Naked Gun - This world is such a violent place"
     ,"Futurama - He died because of me"
     ,"Kung Fury - I could tell he was dead"
-    ,"Kung Fury - I'm afraid you're dead"]
+    ,"Kung Fury - I'm afraid you're dead"
+    ,"Britanick - Why do people have to die"]
   }
 
   ; Key: W
@@ -158,7 +160,9 @@ KeyEvent(code, state){
     ,"KP - Hi yall"
     ,"Princess Bride - Hello, my name is Inigo Montoya"
     ,"Kung Fury - Very nice meeting you"
-    ,"Kung Fury - Behold, it is me"]
+    ,"Kung Fury - Behold, it is me"
+    ,"Britanick - My name is Humphrey"
+    ,"Britanick - Hey with six ees"]
   }
 
   ; Key: E
@@ -263,7 +267,10 @@ KeyEvent(code, state){
     ,"Spaceballs - He's an asshole too, sir"
     ,"Spaceballs - He's an asshole"
     ,"Spaceballs - You fat bearded bitch"
-    ,"SNL - Your English teacher"]
+    ,"SNL - Your English teacher"
+    ,"Britanick - Fuck your mom"
+    ,"Britanick - What an awkward moment"
+    ,"Britanick - You're ugly"]
   }
 
   ; Key: Y
@@ -341,22 +348,23 @@ KeyEvent(code, state){
   ; Key: P
   if(code = 25) {
     category := "DIRTY"
-    files := ["DIRTY -  Badman - It's been a while"
-    ,"DIRTY - Badman - All sex jokes aside"
-    ,"DIRTY - Badman - Ass, Mouth, Vag"
-    ,"DIRTY - Badman - How does it feel to have something hard penetrate your body"
-    ,"DIRTY - Badman - It was like an all you can fuck buffet"
-    ,"DIRTY - Badman - Spit in my mouth"
-    ,"DIRTY - Badman - There's no boners, they die"
-    ,"DIRTY - DM - Get your hand off my penis"
-    ,"DIRTY - DM - This is the bloke who got me on the penis"
-    ,"DIRTY - Gene - Tell that to my vagina"
-    ,"DIRTY - Letterkenny - Dick dingers"
-    ,"DIRTY - Professor Ex - If you're into big hairy"
-    ,"DIRTY - Professor Ex - It was dicks"
-    ,"DIRTY - Professor Ex - Remember when they rated"
-    ,"DIRTY - Tina - If you think about it, any box could have vibrators"
-    ,"DIRTY - You tamed my monster"]
+    files := ["Badman - It's been a while"
+    ,"Badman - All sex jokes aside"
+    ,"Badman - Ass, Mouth, Vag"
+    ,"Badman - How does it feel to have something hard penetrate your body"
+    ,"Badman - It was like an all you can fuck buffet"
+    ,"Badman - Spit in my mouth"
+    ,"Badman - There's no boners, they die"
+    ,"DM - Get your hand off my penis"
+    ,"DM - This is the bloke who got me on the penis"
+    ,"Gene - Tell that to my vagina"
+    ,"Letterkenny - Dick dingers"
+    ,"Professor Ex - If you're into big hairy"
+    ,"Professor Ex - It was dicks"
+    ,"Professor Ex - Remember when they rated"
+    ,"Tina - If you think about it, any box could have vibrators"
+    ,"You tamed my monster"
+    ,"Britanick - I like your mouth"]
   }
 
   ; Key: [
@@ -401,7 +409,8 @@ KeyEvent(code, state){
     ,"Spaceballs - Take a five minute break"
     ,"Kung Fury - I'm not sure"
     ,"Robot Chicken - Did you ever have one of those moments"
-    ,"SNL - But it can't happen to a boy"]
+    ,"SNL - But it can't happen to a boy"
+    ,"Britanick - I can't tell if that's funny"]
   }
 
   ; Key: D
@@ -720,7 +729,8 @@ KeyEvent(code, state){
     ,"Robot Chicken - People will be talking about this"
     ,"Haunted House - Sexy baked potato"
     ,"John Oliver - Very nice"
-    ,"SNL - Good work Mary Jojo"]
+    ,"SNL - Good work Mary Jojo"
+    ,"Britanick - You can almost be a model"]
   }
 
   ; Key: comma
@@ -753,7 +763,10 @@ KeyEvent(code, state){
     ,"Kung Fury - I could feel my body mutate"
     ,"Kung Fury - I'm a cop from the future"
     ,"Letterkenny - I should be mad"
-    ,"Professor Ex - The carpet does not match the drapes"]
+    ,"Professor Ex - The carpet does not match the drapes"
+    ,"Britanick - Use my time machine"
+    ,"Britanick - Time space continuum"
+    ,"Britanick - Fuck"]
   }
 
   ; Key: period
@@ -779,7 +792,9 @@ KeyEvent(code, state){
     ,"John Oliver - Anything can be food"
     ,"Naked Gun - Like a blind man"
     ,"Naked Gun - I like my sex how I like my basketball"
-    ,"SNL - Boy Tanya"]
+    ,"SNL - Boy Tanya"
+    ,"Britanick - Fuck those people"
+    ,"Britanick - Too beary"]
   }
 
   ; Key: front slash
@@ -905,7 +920,8 @@ KeyEvent(code, state){
     files := ["Badman - Why are you guys being this way"
     ,"Badman - Why are you talking like that"
     ,"Badman - Why does he do that every time we're committing a crime"
-    ,"John Oliver - Why would you admit"]
+    ,"John Oliver - Why would you admit"
+    ,"Britanick - Why don't you like"]
   }
   ; Key: F6
   if(code = 64) {
