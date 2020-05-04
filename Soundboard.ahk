@@ -5,10 +5,10 @@
 ; ----------------------------------------------------------------------------------------------------------
 global KEYBOARD_VID   = 0x04CA
 global KEYBOARD_PID   = 0x0022
-global SOUNDS_DIR     = "C:\Users\Josh\Documents\Soundboard\"                   ; Directory of sound files
-global SOUNDS_EXT     = ".mp3"                                                  ; Extension of sound files
-global VLC_PATH       = "C:\Program Files\VideoLAN\VLC\vlc.exe"                 ; Path of VLC Executable
-global VLC_AUDIO_OUT  = "VoiceMeeter Input (VB-Audio Voi ($1,$64)"              ; Audio out device in VLC
+global SOUNDS_DIR     = "C:\Users\Josh\OneDrive - Forlina\Documents\Soundboard\"  ; Directory of sound files
+global SOUNDS_EXT     = ".mp3"                                                    ; Extension of sound files
+global VLC_PATH       = "C:\Program Files\VideoLAN\VLC\vlc.exe"                   ; Path of VLC Executable
+global VLC_AUDIO_OUT  = "VoiceMeeter Input (VB-Audio Voi ($1,$64)"                ; Audio out device in VLC
 ; ----------------------------------------------------------------------------------------------------------
 
 ; AHI Settings
