@@ -163,7 +163,8 @@ KeyEvent(code, state){
     ,"Kung Fury - Behold, it is me"
     ,"Britanick - My name is Humphrey"
     ,"Britanick - Hey with six ees"
-    ,"KP - Hello Sammy"]
+    ,"KP - Hello Sammy"
+    ,"Britanick - My name is Mr. Fancy"]
   }
 
   ; Key: E
@@ -189,7 +190,8 @@ KeyEvent(code, state){
     ,"Kung Fury - Good luck to you"
     ,"John Oliver - Goodnight"
     ,"SNL - You may watch the rest"
-    ,"SNL - Go smoke your weed"]
+    ,"SNL - Go smoke your weed"
+    ,"Britanick - Don't talk to me for five hours"]
   }
 
   ; Key: R
@@ -324,7 +326,8 @@ KeyEvent(code, state){
     ,"Bob - Oh my god"
     ,"Professor Ex - Oh god"
     ,"Naked Gun - My god"
-    ,"TD - OMG"]
+    ,"TD - OMG"
+    ,"Britanick - For the love of god"]
   }
 
   ; Key: O
@@ -366,7 +369,9 @@ KeyEvent(code, state){
     ,"Professor Ex - Remember when they rated"
     ,"Tina - If you think about it, any box could have vibrators"
     ,"You tamed my monster"
-    ,"Britanick - I like your mouth"]
+    ,"Britanick - I like your mouth"
+    ,"Britanick - Now we fuck in an old car"
+    ,"Britanick - Ready to have sex"]
   }
 
   ; Key: [
@@ -510,7 +515,9 @@ KeyEvent(code, state){
     ,"Mitchel and Webb - Are we the baddies"
     ,"John Oliver - And that is a problem"
     ,"Spaceballs - I'm surrounded by assholes"
-    ,"Spaceballs - Oh shit, there goes the planet"]
+    ,"Spaceballs - Oh shit, there goes the planet"
+    ,"Britanick - Wrong type of scheme"
+    ,"Britanick - You disappoint me"]
   }
 
   ; Key: K
@@ -736,7 +743,8 @@ KeyEvent(code, state){
     ,"John Oliver - Very nice"
     ,"SNL - Good work Mary Jojo"
     ,"Britanick - You can almost be a model"
-    ,"KP - Better name"]
+    ,"KP - Better name"
+    ,"Britanick - Much gusto good boy"]
   }
 
   ; Key: comma
@@ -772,7 +780,8 @@ KeyEvent(code, state){
     ,"Professor Ex - The carpet does not match the drapes"
     ,"Britanick - Use my time machine"
     ,"Britanick - Time space continuum"
-    ,"Britanick - Fuck"]
+    ,"Britanick - Fuck"
+    ,"Britanick - I've got an idea"]
   }
 
   ; Key: period
